@@ -6,7 +6,7 @@ target 'HOME DVA' do
   use_frameworks!
 
  pod 'Firebase'
-
+ pod 'Firebase/RemoteConfig'
   # Pods for HOME DVA
 
 end

@@ -32,6 +32,11 @@ class FirstScreenStoryboard: UIViewController {
         self.view.addSubview(popUpView!)
     }
 
+    
+    @IBAction func gotoHome(_ sender: Any) {
+        let homeVC = HomeViewcontroller()
+        self.navigationController?.pushViewController(homeVC, animated: true)
+    }
     /*
     // MARK: - Navigation
 

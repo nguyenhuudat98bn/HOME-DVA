@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		579E65DA27120935008EB1C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 579E65D927120935008EB1C4 /* GoogleService-Info.plist */; };
+		579E65FD2712A36B008EB1C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 579E65FC2712A36B008EB1C4 /* GoogleService-Info.plist */; };
 		57F5DC3D222575FD00AA4694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5DC3C222575FD00AA4694 /* AppDelegate.swift */; };
 		57F5DC3F222575FD00AA4694 /* HomeViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5DC3E222575FD00AA4694 /* HomeViewcontroller.swift */; };
 		57F5DC42222575FD00AA4694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F5DC40222575FD00AA4694 /* Main.storyboard */; };
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		403E7C3441AE66711551C18C /* Pods-HOME DVA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOME DVA.debug.xcconfig"; path = "Target Support Files/Pods-HOME DVA/Pods-HOME DVA.debug.xcconfig"; sourceTree = "<group>"; };
-		579E65D927120935008EB1C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/New Folder With Items 2/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		579E65FC2712A36B008EB1C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/New Folder With Items 2/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57F5DC39222575FD00AA4694 /* HOME DVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HOME DVA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F5DC3C222575FD00AA4694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F5DC3E222575FD00AA4694 /* HomeViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewcontroller.swift; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 				57F5DC40222575FD00AA4694 /* Main.storyboard */,
 				57F5DC43222575FF00AA4694 /* Assets.xcassets */,
 				57F5DC45222575FF00AA4694 /* LaunchScreen.storyboard */,
-				579E65D927120935008EB1C4 /* GoogleService-Info.plist */,
 				57F5DC48222575FF00AA4694 /* Info.plist */,
+				579E65FC2712A36B008EB1C4 /* GoogleService-Info.plist */,
 			);
 			path = "HOME DVA";
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 				57F5DC42222575FD00AA4694 /* Main.storyboard in Resources */,
 				57F5DC59222591A500AA4694 /* PopupFirstView.xib in Resources */,
 				57F5DC4F2225797800AA4694 /* HomeViewcontroller.xib in Resources */,
-				579E65DA27120935008EB1C4 /* GoogleService-Info.plist in Resources */,
+				579E65FD2712A36B008EB1C4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
