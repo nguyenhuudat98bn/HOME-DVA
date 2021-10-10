@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import Firebase
 
 class HomeViewcontroller: BaseViewController {
+    
+//    private var remoteConfig: r!
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		579E65DA27120935008EB1C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 579E65D927120935008EB1C4 /* GoogleService-Info.plist */; };
 		57F5DC3D222575FD00AA4694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5DC3C222575FD00AA4694 /* AppDelegate.swift */; };
 		57F5DC3F222575FD00AA4694 /* HomeViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5DC3E222575FD00AA4694 /* HomeViewcontroller.swift */; };
 		57F5DC42222575FD00AA4694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F5DC40222575FD00AA4694 /* Main.storyboard */; };
@@ -18,9 +19,12 @@
 		57F5DC5722258B2B00AA4694 /* FirstScreenStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5DC5622258B2B00AA4694 /* FirstScreenStoryboard.swift */; };
 		57F5DC59222591A500AA4694 /* PopupFirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57F5DC58222591A500AA4694 /* PopupFirstView.xib */; };
 		57F5DC5B222592B300AA4694 /* PopupFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5DC5A222592B300AA4694 /* PopupFirstView.swift */; };
+		7E7ADC616E34B9E6F6396C88 /* Pods_HOME_DVA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9593E43F147E94DC2CA045 /* Pods_HOME_DVA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		403E7C3441AE66711551C18C /* Pods-HOME DVA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOME DVA.debug.xcconfig"; path = "Target Support Files/Pods-HOME DVA/Pods-HOME DVA.debug.xcconfig"; sourceTree = "<group>"; };
+		579E65D927120935008EB1C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/New Folder With Items 2/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57F5DC39222575FD00AA4694 /* HOME DVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HOME DVA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F5DC3C222575FD00AA4694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F5DC3E222575FD00AA4694 /* HomeViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewcontroller.swift; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		57F5DC5622258B2B00AA4694 /* FirstScreenStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenStoryboard.swift; sourceTree = "<group>"; };
 		57F5DC58222591A500AA4694 /* PopupFirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupFirstView.xib; sourceTree = "<group>"; };
 		57F5DC5A222592B300AA4694 /* PopupFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupFirstView.swift; sourceTree = "<group>"; };
+		5A9593E43F147E94DC2CA045 /* Pods_HOME_DVA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOME_DVA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84163C339D3F6A6BE372075E /* Pods-HOME DVA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOME DVA.release.xcconfig"; path = "Target Support Files/Pods-HOME DVA/Pods-HOME DVA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7ADC616E34B9E6F6396C88 /* Pods_HOME_DVA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0111840BBAACABB59B391022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A9593E43F147E94DC2CA045 /* Pods_HOME_DVA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		57F5DC30222575FD00AA4694 = {
 			isa = PBXGroup;
 			children = (
 				57F5DC3B222575FD00AA4694 /* HOME DVA */,
 				57F5DC3A222575FD00AA4694 /* Products */,
+				D54DB4C5B6EB7A05877F1A84 /* Pods */,
+				0111840BBAACABB59B391022 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +94,19 @@
 				57F5DC40222575FD00AA4694 /* Main.storyboard */,
 				57F5DC43222575FF00AA4694 /* Assets.xcassets */,
 				57F5DC45222575FF00AA4694 /* LaunchScreen.storyboard */,
+				579E65D927120935008EB1C4 /* GoogleService-Info.plist */,
 				57F5DC48222575FF00AA4694 /* Info.plist */,
 			);
 			path = "HOME DVA";
+			sourceTree = "<group>";
+		};
+		D54DB4C5B6EB7A05877F1A84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				403E7C3441AE66711551C18C /* Pods-HOME DVA.debug.xcconfig */,
+				84163C339D3F6A6BE372075E /* Pods-HOME DVA.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57F5DC4B222575FF00AA4694 /* Build configuration list for PBXNativeTarget "HOME DVA" */;
 			buildPhases = (
+				5E055073EB037F9BCB7CCA57 /* [CP] Check Pods Manifest.lock */,
 				57F5DC35222575FD00AA4694 /* Sources */,
 				57F5DC36222575FD00AA4694 /* Frameworks */,
 				57F5DC37222575FD00AA4694 /* Resources */,
+				02D7F166E4973D65FA014087 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,10 +174,53 @@
 				57F5DC42222575FD00AA4694 /* Main.storyboard in Resources */,
 				57F5DC59222591A500AA4694 /* PopupFirstView.xib in Resources */,
 				57F5DC4F2225797800AA4694 /* HomeViewcontroller.xib in Resources */,
+				579E65DA27120935008EB1C4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02D7F166E4973D65FA014087 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HOME DVA/Pods-HOME DVA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HOME DVA/Pods-HOME DVA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HOME DVA/Pods-HOME DVA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E055073EB037F9BCB7CCA57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HOME DVA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57F5DC35222575FD00AA4694 /* Sources */ = {
@@ -304,16 +376,20 @@
 		};
 		57F5DC4C222575FF00AA4694 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403E7C3441AE66711551C18C /* Pods-HOME DVA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6V2NPA2JVB;
 				INFOPLIST_FILE = "HOME DVA/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.datnguyen1.HOME-DVA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datnguyen1.HOME-DVA1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,9 +397,12 @@
 		};
 		57F5DC4D222575FF00AA4694 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84163C339D3F6A6BE372075E /* Pods-HOME DVA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "HOME DVA/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,6 +410,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.datnguyen1.HOME-DVA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
