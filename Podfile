@@ -7,6 +7,7 @@ target 'HOME DVA' do
 
  pod 'Firebase'
  pod 'Firebase/RemoteConfig'
+ pod 'FirebaseMessaging'
   # Pods for HOME DVA
 
 end
